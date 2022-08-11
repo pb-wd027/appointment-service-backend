@@ -12,7 +12,7 @@ app.use("/api/user", userRoute);
 app.use("/api/admin", adminRoute);
 app.use("/api/doctor", doctorRoute);
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT;
 
   
 app.listen(port, () => console.log(`Node Express Server Started at ${port}!`));
