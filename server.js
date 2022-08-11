@@ -6,6 +6,7 @@ app.use(express.json());
 const userRoute = require("./routes/userRoute");
 const adminRoute = require("./routes/adminRoute");
 const doctorRoute = require("./routes/doctorsRoute");
+const path = require("path");
 
 
 app.use("/api/user", userRoute);
